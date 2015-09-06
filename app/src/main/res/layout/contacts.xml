@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="ООО «Информационное агентство «Банки.ру»"
+            android:textSize="12pt"/>
+        <TableRow>
+            <TextView android:text="Адрес:"/>
+            <TextView android:text="115191, Москва, Гамсоновский пер., д. 2, стр. 3"
+                android:padding="@dimen/abc_list_item_padding_horizontal_material"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Телефон:"/>
+            <TextView android:text="+7 (495) 665-52-55 (многоканальный),\n+7 (495) 739-52-55"
+                android:padding="@dimen/abc_list_item_padding_horizontal_material"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Электронная почта:"/>
+            <TextView android:text="info@banki.ru"
+                android:padding="@dimen/abc_list_item_padding_horizontal_material"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Цитирование материалов,\nкомментарии экспертов,\nинформационная поддержка:"/>
+            <TextView android:text="pressa@banki.ru\nОльга Бескина, доб. 442"
+                android:padding="@dimen/abc_list_item_padding_horizontal_material"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
