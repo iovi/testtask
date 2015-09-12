@@ -2,6 +2,7 @@ package iovi.testtask;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,9 @@ public class TextF extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.text_info, null);
-        ((TextView)v.findViewById(R.id.text_information)).setText(getArguments().getString("Text"));
+        TextView textInfo=(TextView)v.findViewById(R.id.text_information);
+        textInfo.setText(getArguments().getString("Text"));
+        textInfo.setMovementMethod(new ScrollingMovementMethod());
         return v;
     }
     @Override

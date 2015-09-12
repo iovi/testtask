@@ -5,4 +5,5 @@
     android:layout_height="wrap_content"
     android:textSize="10pt"
     android:paddingLeft="10pt"
-    android:paddingRight="10pt"/>
+    android:paddingRight="10pt"
+    android:scrollbars="vertical"/>
